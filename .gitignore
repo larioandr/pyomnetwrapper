@@ -102,3 +102,22 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# OMNeT++ Models Excludes
+run
+.metadata
+.qtenvrc
+.cmdenv-log
+out/
+*_m.h
+*_m.cc
+*_dbg
+*.dylib
+*.a
+*.so
+*.log
+*.anf
+samples/workspace/*/results/*.vec
+samples/workspace/*/results/*.vci
+samples/workspace/*/results/*.sca
+samples/workspace/timers/timers
