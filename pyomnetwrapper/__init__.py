@@ -1,2 +1,2 @@
 def say_hello():
-    return "Hello from pyomnetwrapper"
+    return "Ready to be developed!"

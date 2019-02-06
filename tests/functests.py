@@ -9,7 +9,7 @@ DATA_PATH = os.path.join(ROOT, 'samples', 'data')
 
 class TestHelloUsage(TestCase):
     def test_it(self):
-        self.assertEqual("Hello from pyomnetwrapper", ow.say_hello())
+        self.assertEqual("Ready to be developed!", ow.say_hello())
 
 
 class TestAloha(TestCase):
